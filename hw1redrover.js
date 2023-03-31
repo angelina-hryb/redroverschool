@@ -76,5 +76,31 @@ document.write ('Make a cup of classic cappuccino in a coffee machine','<br>')
 
 document.write ('<br>',step1,'<br>', step2, '<br>',step3, '<br>',step4, '<br>',step5,'<br>',step6,'<br>',step7,'<br>','<br>')
 
-document.write (`Get a subtle shade reminiscent of a creamy punch!`)
+document.write (`Get a subtle shade reminiscent of a creamy punch!`,'<br>');
 
+let d=2;
+let f=3;
+let g=d*f;
+let h=g/2
+console.log(g,h);
+let j=d**f
+console.log(j);
+let k=j+(g+h)*4;
+console.log(k);
+
+
+// Задача 1** Напишите формулу, которая вычисляет BMI (Body Mass Index), 
+//  BMI = вес (кг)/ рост (м) в квадрате. Напечатайте результат в консоли. Выведите вместе сo своим именем на страницу
+let weight =50
+let height=1.6**2
+let BMI=weight/height
+console.log('Angelina',BMI)
+
+let weight2 =89
+let height2=1.84**2
+let BMI2=weight2/height2
+console.log('Sergei',BMI2);
+
+// Задача 2.** Создайте две переменные с любыми значениями. Напишите программу, которая поменяет эти значения местами. Update. То же задание с числовыми переменными. Будет ли разница?
+
+//Задача 3.**Поменять значения переменных x и y
