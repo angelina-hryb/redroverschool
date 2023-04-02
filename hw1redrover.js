@@ -103,4 +103,17 @@ console.log('Sergei',BMI2);
 
 // Задача 2.** Создайте две переменные с любыми значениями. Напишите программу, которая поменяет эти значения местами. Update. То же задание с числовыми переменными. Будет ли разница?
 
-//Задача 3.**Поменять значения переменных x и y
+var v=5
+var n=6
+console.log('v='+v,'n='+n)
+v=v+n 
+// console.log(v); //11
+n=v-n
+// console.log(n);//5
+v=v-n
+// console.log(v)//6
+console.log('v='+v,'n='+n)
+
+alert('Welcome to my homework_1!')
+prompt('Please,give me feedback!')
+
