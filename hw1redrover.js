@@ -76,7 +76,7 @@ document.write ('Make a cup of classic cappuccino in a coffee machine','<br>')
 
 document.write ('<br>',step1,'<br>', step2, '<br>',step3, '<br>',step4, '<br>',step5,'<br>',step6,'<br>',step7,'<br>','<br>')
 
-document.write (`Get a subtle shade reminiscent of a creamy punch!`,'<br>');
+document.write (`Get a subtle shade reminiscent of a creamy punch!`,'<br>','<br>');
 
 let d=2;
 let f=3;
@@ -115,5 +115,6 @@ v=v-n
 console.log('v='+v,'n='+n)
 
 alert('Welcome to my homework_1!')
-prompt('Please,give me feedback!')
+let inputName=prompt('Please,enter your name:')
+document.write (`Hello ${inputName}!`)
 
